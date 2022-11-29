@@ -1,0 +1,124 @@
+html, body {
+    background-image: url(https://sites.google.com/site/sciencebykfang/_/rsrc/1520737298125/home/Science.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.top-header {
+    background-color: rgb(39, 38, 38);
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.top-header .head {
+     float: left;
+}
+.top-header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 25px;
+    padding-top: 4px;
+    padding-left: 20px;
+
+}
+
+.top-header ul.menu{
+    list-style: none;
+    float: right;
+}
+
+.top-header ul.menu li{
+    float: left;
+    margin-right: 25px;
+}
+
+.top-header ul.menu li a{
+    text-decoration: none;
+    color: #f4f2f3;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.top-header ul.menu li a:hover{
+    border-bottom: 2px solid #f4f2f3;
+    padding-bottom: 0;
+}
+
+
+
+
+
+.main-content {
+    max-width: 1000px;
+    margin: auto;
+
+}
+.box {
+    background-color: rgba(213, 218, 218, 0.966);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.image {
+    width: 50%;
+    border-radius: 20px;
+}
+
+.button {
+    color: rgb(24, 23, 23);
+    background-color: rgb(185, 183, 183);
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 20px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+    transition: all 0.3s ease;
+    
+}
+
+.button:hover{
+    border-bottom: 1px solid #f4f2f3;
+    padding-bottom: 0;
+    
+}
+.table{
+    width: 400px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+   
+}
+.table, th, td{
+    border: 1px solid #000;
+}
+
+.box li{
+    font-size: 18px;
+    list-style: none;
+}
+
+.bottom-footer{
+    background-color: rgba(157, 160, 159, 0.938);
+    color: rgb(26, 25, 25);
+    padding: 10px;
+    text-align: center;
+}
